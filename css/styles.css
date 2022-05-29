@@ -882,3 +882,8 @@ footer {
         padding: 5px 10px
     }
 }
+
+#links a {
+    margin: 0;
+    padding:0;
+}
