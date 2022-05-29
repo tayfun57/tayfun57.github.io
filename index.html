@@ -45,7 +45,7 @@
 
     <div id="lead">
         <div id="lead-content">
-            <h1>Tayfun Özedmir</h1>
+            <h1>Tayfun Özdemir</h1>
             <h2>Freiberuflicher IT-Systemadministrator</h2>
             <h3>Aktuelle Auslastung: 60%</h3>
             <!-- <a href="#" class="btn-rounded-white">Download Resume</a> --> 
@@ -157,15 +157,18 @@
 
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/project.jpg" />
+                        <img src="images/project1.jpg" />
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Project Name Here</h3>
+                        <h3>Micosoft Intune mass device identifier add/remove PowerShell Script</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                            <strong>Problem:</strong> Die IT-Abteilung erhält regelmäßig defekte/veraltete via Intune gemanagte Geräte zurück. Die Geräte werden daraufhin dem remarketing zugeführt.
+                            Die IT-Abteilung erhält vom Remarketer eine Excel Liste mit den Seriennummern der Geräte. Diese Geräte müssen aus Sicherheitsgründen nun aus Intune entfernt werden. 
+                            Intune bietet leider über das frontend nicht die Möglichkeit eine Excel/csv Liste hochzuladen. <br><br>
+                            <strong>Lösung:</strong> Entwicklung eines Powershell-Scripts, welches über die Graph-API eine zu übergegebene Liste von Seriennnummern aus Intune entfernt/hinzufügt. 
                         </p>
-                        <a href="#">View Project</a>
+                        <!-- <a href="#">View Project</a> !-->
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -194,7 +197,7 @@
     <div id="contact">
         <h2>Get in Touch</h2>
         <div id="contact-form">
-            <form method="POST" action="https://formspree.io/mail@tayfunoezdemir.de">
+            <form method="POST" action="https://formspree.io/f/xdobbwye">
                 <input type="hidden" name="_subject" value="Contact request from personal website" />
                 <input type="email" name="_replyto" placeholder="Ihre E-Mail Adresse" required>
                 <textarea name="message" placeholder="Ihre Nachricht" required></textarea>
